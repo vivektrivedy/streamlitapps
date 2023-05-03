@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 
 st.header("***Welcome*** to Learning Streamlit")
-st.subheader("Hi I'm **:blue[Vivek]**!  I'm  PhD student at :red[Temple University] studying\
+st.subheader("Hi I'm **:blue[Vivek]**!  I'm a PhD student at :red[Temple University] studying\
     computer science.  Welcome to my streamlit app! :sunglasses:")
 
 if st.button("Say hello"):
