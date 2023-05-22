@@ -34,6 +34,8 @@ st.bar_chart(bar_data)
 st.markdown("Here's a simple code block")
 code = """
 def matrix_multiply(a, b):
+    temp = np.zeros((a.shape[0], b.shape[1]))
+    s = 'done fr'
     return np.dot(a, b)
 """
 st.code(code, language='python')
